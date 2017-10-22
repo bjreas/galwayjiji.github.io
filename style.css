@@ -829,10 +829,11 @@ span.blog-date {
     margin:0;
 }
 .post-sig{
-    height: 20px;
+    height: 50px;
     padding: 0;
     margin: 0;
-    background: url('https://bjreas.github.io/galwayjiji.github.io/images/buket.png') center no-repeat;
+    background: url(https://bjreas.github.io/galwayjiji.github.io/images/buket.png) center no-repeat;
+    background-size: 10%;
 }
 .call-to-act{
     text-align: center !important;
