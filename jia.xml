@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+  <b:if cond='data:blog.isMobile'>
+  <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+  <b:else/>
+  <meta content='width=1100' name='viewport'/>
+  </b:if>
+  <b:include data='blog' name='all-head-content'/>
+
+
+  <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' rel='stylesheet'/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css"/>
+  <link href="https://file.myfontastic.com/frW328sAcbsJKJMdhVAdeT/icons.css" rel="stylesheet"/>
+  
+  <!-- Animate -->
+  <link href="https://dl.dropboxusercontent.com/s/lzoszsouz9yi32q/animate.css?dl=0" rel="stylesheet"/>
+  
+  
+  <!-- Bootsnav -->
+  <link href="https://dl.dropboxusercontent.com/s/ja7z9l0gcplgatr/bootsnav.css?dl=0" rel="stylesheet"/>
+  <link href="https://dl.dropboxusercontent.com/s/22obyeuuj9na5d4/overwrite.css?dl=0" rel="stylesheet"/>
+  <link href="https://dl.dropboxusercontent.com/s/c1b7thho5wanmix/color.css?dl=0" rel="stylesheet"/>
+  <link href="https://dl.dropboxusercontent.com/s/oqi5vjb5g40o4hm/style.css?dl=0" rel="stylesheet"/>
+
+
+
+
+
+  <title><data:blog.pageTitle/></title>
+
+  <b:skin>
+    <![CDATA[
+      .footer a:hover{
+        text-decoration:underline;
+      }
+
+      input#nbc-searchsimpleinput1 {
+        display: block;
+        width: 100%;
+        height: 54px;
+        padding: 6px 12px;
+        font: 26px 'Playfair Display', serif;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.42857143;
+        color: #1F2123;
+        background-color: #f5f5f5;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+      }
+      .modal-btn-wrapper{
+        padding: 15px;
+      }
+      input#nbc-searchsimplesubmit1{
+        background: #fff;
+        width: 150px;
+        margin: auto;
+        padding: 10px 15px;
+        color: #1F2123;
+        font-size: 12px;
+        border: 1px solid #1F2123;
+        font-family:'Open Sans', sans-serif;
+        font-style: normal;
+      }
+      input#nbc-searchsimplesubmit1:hover{
+        border:1px solid  transparent;
+      }
+    ]]>
+  </b:skin>
+</head>
+
+<body>
+  <div class="clearfix"></div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="jumbotron  animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="400">
+        <div class="jumbotron-wrapper">
+          <!-- <b:section id='header' class='header' maxwidgets='1' showaddelement='yes'>
+          <b:widget id='Header1' locked='false' title='Testground (Header)' type='Header'/>
+          </b:section> -->
+          <div id='header' class='header' maxwidgets='1' showaddelement='yes'>
+            <div id='Header1' locked='false' title='Testground (Header)' type='Header'>
+              <img src="https://dl.dropboxusercontent.com/s/cf5kmu7a8jyn5ji/Cheyser-jumbotron.svg?dl=0" class="logo jumbotron-logo" alt=""/>
+              <h3></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Start Navigation -->
+  <nav class="navbar navbar-default navbar bootsnav on ">
+
+    <!-- Start Atribute Navigation -->
+    <div class="attr-nav">
+      <ul>
+        <li class=""><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#brand">
+        <img src="https://dl.dropboxusercontent.com/s/3d9s188j0jfxcmh/Cheyser-menu.svg?dl=0" class="logo logo-scrolled" alt=""/>
+      </a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-menu">
+      <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+        <li><a href="file:///Applications/MAMP/htdocs/Bootstrap%20Projects/Tialacson/index.html">Home</a></li>
+        <li><a href="#aboutme">About Me</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Follow Me</a>
+          <ul class="dropdown-menu animated fadeOutUp" style="display: none; opacity: 1;">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Tumblr</a></li>
+            <li><a href="#">Formspring</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Bloglovin'</a></li>
+            <li><a href="#">Lookbook</a></li>
+
+          </ul>
+        </li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li class="search"><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"></i></a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+
+  </nav>
+<!-- End Navigation -->
+<!-- Start Search Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div class="modal-body">
+          <form action='/search/max-results=8' id='nbc-searchsimplebox1' method='get'>
+            <input id='nbc-searchsimpleinput1' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Search this site...&quot;;}' onfocus='if (this.value == &quot;Search this site...&quot;) {this.value = &quot;&quot;}' type='text' value='Search this site...'/>
+            <div class="modal-btn-wrapper">
+              <input class='btn btn-lg btn-primary btn-block modal-submit' id='nbc-searchsimplesubmit1' type='submit' value='Search'/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Search Modal -->
+
+
+
+  <div class="clearfix"></div>
+  <div class="container main-margin-top">
+    <div class="row">
+      <div class="col-sm-8 blog-main animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="400">
+        <b:section id='main' class='main' maxwidgets='' showaddelements='yes'>
+        <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'/>
+        </b:section>
+      </div>
+
+      <div class="col-sm-4 blog-sidebar animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="400">
+
+        <div class="sidebar-post">
+          <div class="sidebar-module sidebar-module-inset sidebar-first">
+            <div class="row placeholders">
+              <div class="col-xs-12" id="aboutme">
+                <img src="https://dl.dropboxusercontent.com/s/69tdrujyxul29iy/3.png?dl=0" class="img-responsive" alt="Generic placeholder thumbnail"/>
+                <div class="sidebar-title-container">
+                  <h2 class="sidebar-title">Cheyzmeister</h2>
+                </div>
+              </div>
+            </div>
+            <p class="about-me">Free-spirited Filipina blogger and a Jr. Interior Designer </p>
+           
+            <div class="follow-me">
+              <ul>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="fb.com/cheyzmeister"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="@cheyzmeister"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="thedreamcheyser.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="pinterest.com/cheyzmeister"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="@cheyzmeister"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="The Walking Recessionista"><i class="fa icon-bloglovin-icon" aria-hidden="true"></i></a></li>
+                <li><a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="lookbook.nu/thedreamcheyser"><i class="fa icon-lookbook-icon" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa icon-formspring" aria-hidden="true"></i></a></li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-post">
+          <div class="sidebar-module sidebar-module-inset" style="padding-bottom:0;">
+            <div class="author-watermark">
+              <p>This Website is Designed and Developed by <a href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Click for more Info">Bryan Reas</a></p>
+            </div>
+          </div>
+        </div>
+            
+        <b:section id='sidebar' class='sidebar' maxwidgets='' showaddelements='yes'>
+        <b:widget id='CustomSearch1' locked='false' title='Search' type='CustomSearch'/>
+        <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive'/>
+        </b:section>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footertron animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="400">
+      <div class="footer-logo"></div>
+      
+    </div>
+    <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <iframe src="https://snapwidget.com/embed/261073" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+    <div class="footer animated fadeInDown visible" data-animation="fadeInDown" data-animation-delay="400">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <span>Copyrights © 2016 The Walking Recessionista by Cheyser Pedregosa. All rights reserved. <br/> Designed and Developed by <a href="#">Bryan Reas</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Back to Top" data-toggle="tooltip" data-placement="left"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+    <!-- START JAVASCRIPT -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://dl.dropboxusercontent.com/s/jc50qksr7obf4t1/bootstrap.min.js?dl=0"></script>
+
+    
+    <!-- Bootsnavs -->
+    <script src="https://dl.dropboxusercontent.com/s/a0qjmhc1zx3m1t1/bootsnav.js?dl=0"></script>
+    <script src="https://dl.dropboxusercontent.com/s/3uwlnuaoz1ti7d5/backtotop.js?dl=0"></script>
+    <script src="https://dl.dropboxusercontent.com/s/3jjw7chj9ralnky/popover.js?dl=0"></script>
+    <script src="https://dl.dropboxusercontent.com/s/3uj58blgjldv53q/clicktoscroll.js?dl=0"></script>
+
+  
+</body>
+</html>
