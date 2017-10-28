@@ -386,8 +386,8 @@ nav.navbar .navbar-brand img.logo{
         height: auto;
         padding: 20px 15px;
     }
-    nav.navbar .navbar-brand img.logo{
-        width: 45% !important;
+    nav.navbar .navbar-brand img.logo {
+        width: 125px;
     }
     nav.navbar.bootsnav .navbar-nav > li.search {
         display: none;
@@ -399,7 +399,7 @@ nav.navbar .navbar-brand img.logo{
         right: 40px;
     }
     nav.navbar .navbar-brand img.logo {
-        width: 45%;
+        width: 130px;
     }
     nav.navbar.bootsnav .navbar-toggle {
         right: 10px;
