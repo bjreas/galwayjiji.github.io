@@ -859,6 +859,7 @@ span.blog-date {
 }
 .btn-readmore:hover {
     border-bottom: 2px solid #F8C6C5;
+    color:#F8C6C5;
     border-top: 2px solid #fff;
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
