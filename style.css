@@ -714,6 +714,9 @@ span.wpcf7-form-control-wrap {
         padding-top: 85px;
         padding-bottom: 25px;
     }
+    .jumbotron-logo{
+        width:90%;
+    }
 }
 
 /* 
@@ -953,12 +956,19 @@ span.blog-date {
 }
 
 @media screen and (max-width: 767px) {
+    .row .blog-post{
+        margin:0px;
+    }
     .blog-post-detail2{
         margin-top:35px;
     }
     .col-sm-6 .social-sharing , .col-sm-6 .blog-author{
         text-align: center;
         padding:8px 0;
+    }
+    .post-sig {
+        height: 70px;
+        background-size: 40%;
     }
 }
 @media screen and (max-width: 480px){
