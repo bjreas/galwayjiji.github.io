@@ -1214,6 +1214,24 @@ span.blog-date {
     width:70%;
     margin:auto;
 }
+@media screen and (max-width: 767px) {
+    .sidebar-post{
+        margin: 0 15px !important;
+    }
+    .sidebar-post #aboutme img.profile_pic {
+        width: 85%;
+        margin: auto;
+    }
+    .widget ul {
+        margin: 0 !important;
+    }
+    .widget-content.list-label-widget-content {
+        text-align: center !important;
+    }
+        #ArchiveList {
+        text-align: left !important;
+    }
+}
 /* 
 -------------------------------------------
             # Comment
