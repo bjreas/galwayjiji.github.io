@@ -398,12 +398,16 @@ nav.navbar .navbar-brand img.logo{
     .attr-nav {
         right: 40px;
     }
+    nav.navbar .navbar-brand img.logo {
+        width: 45%;
+    }
     nav.navbar.bootsnav .navbar-toggle {
         right: 10px;
         padding-left: 15px;
         padding-right: 15px;
         margin-right:0;
     }
+
 
 
 }
